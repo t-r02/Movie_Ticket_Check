@@ -2,9 +2,10 @@ name: 🎬 Movie Ticket Monitor
 
 on:
   schedule:
-    - cron: "*/10 * * * *"   # every 10 minutes
-  workflow_dispatch:           # manual trigger from GitHub UI
-
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
 jobs:
   check:
     runs-on: ubuntu-latest
