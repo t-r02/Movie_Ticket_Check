@@ -20,7 +20,7 @@ from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
 CONFIG = {
     "movie_name":          "Project Hail Mary",
-    "target_date":         "2026-04-02",   # Change this — YYYY-MM-DD
+    "target_date":         "2026-04-04",   # Change this — YYYY-MM-DD
     "city":                "Bengaluru",
     "format_filter":       "IMAX 2D",
     "sender_email":        os.environ.get("SENDER_EMAIL", ""),
